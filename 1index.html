@@ -7,42 +7,56 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#about">Acerca de mí</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Encabezado con foto -->
     <header>
+        <img src="tu_foto.jpg" alt="Foto de Erika Mendoza" class="profile-pic">
         <h1>🌐 Portafolio de Erika Mendoza</h1>
-        <p>¡Hola! Bienvenido a mi portafolio de proyectos de <strong>Análisis de Datos</strong>.</p>
+        <p>Bienvenido a mi portafolio de proyectos de <strong>Análisis de Datos</strong></p>
     </header>
 
-    <section>
+    <!-- Secciones -->
+    <section id="about">
         <h2>👩‍💻 Acerca de mí</h2>
         <p>Soy una <strong>Data Analyst Junior</strong> con experiencia en Python, SQL y Excel. Transformo datos en insights claros y accionables para apoyar decisiones estratégicas.</p>
     </section>
 
-    <section>
+    <section id="skills">
         <h2>🛠️ Habilidades</h2>
-        <ul>
-            <li>Python: pandas, análisis estadístico</li>
-            <li>SQL: consultas y validación de datos</li>
-            <li>Power BI: dashboards interactivos</li>
-            <li>Visualización: storytelling con datos</li>
-        </ul>
+        <div class="cards">
+            <div class="card">🐍 Python: pandas, análisis estadístico</div>
+            <div class="card">💾 SQL: consultas y validación de datos</div>
+            <div class="card">📊 Power BI: dashboards interactivos</div>
+            <div class="card">📈 Visualización: storytelling con datos</div>
+        </div>
     </section>
 
-    <section>
-        <h2>📂 Proyectos</h2>
-        <ul>
-            <li><a href="https://github.com/erikkam28-cpu/Andes-Retail">Andes Retail</a></li>
-            <li><a href="https://github.com/erikkam28-cpu/RappiPlus">RappiPlus</a></li>
-            <li><a href="https://github.com/erikkam28-cpu/S7-Project-ConnectaTel.ipynb">S7 Project ConnectaTel</a></li>
-            <li><a href="https://github.com/erikkam28-cpu/analysis-everpeak">Analysis Everpeak</a></li>
-        </ul>
+    <section id="projects">
+        <h2>📂 Proyectos destacados</h2>
+        <div class="cards">
+            <div class="card"><a href="https://github.com/erikkam28-cpu/Andes-Retail">Andes Retail</a></div>
+            <div class="card"><a href="https://github.com/erikkam28-cpu/RappiPlus">RappiPlus</a></div>
+            <div class="card"><a href="https://github.com/erikkam28-cpu/S7-Project-ConnectaTel.ipynb">S7 Project ConnectaTel</a></div>
+            <div class="card"><a href="https://github.com/erikkam28-cpu/analysis-everpeak">Analysis Everpeak</a></div>
+        </div>
     </section>
 
-    <section>
+    <footer id="contact">
         <h2>📫 Contacto</h2>
         <p>Autor: Erika Mendoza<br>
         📍 México<br>
-        🔗 <a href="https://linkedin.com/in/erika-mendoza-del-angel-ab3099292">LinkedIn</a><br>
-        🔗 <a href="https://https://erika-mendoza.github.io/ERIKA-MENDOZA/">Portafolio</a></p>
-    </section>
+        🔗 <a href="https://linkedin.com/in/tuusuario">LinkedIn</a><br>
+        🔗 <a href="https://erikkam28-cpu.github.io">Portafolio</a></p>
+    </footer>
 </body>
 </html>
+
