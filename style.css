@@ -168,10 +168,34 @@ footer {
   color: #000; /* asegura que 'Autor:' también sea negro */
 }
 
-.project-img {
-  width: 90%; /* ajusta el ancho */
-  max-width: 700px;
+.project {
+  background-color: #f8f9fa;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 350px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
   border-radius: 8px;
   margin-top: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+  font-size: 18px;
+  color: #004aad;
+  margin-bottom: 8px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
