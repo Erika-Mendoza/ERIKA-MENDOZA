@@ -120,7 +120,7 @@ footer {
 
 #contact {
   background-color: #f8f9fa;
-  padding: 20px 10px; /* reduce el alto */
+  padding: 15px 10px; /* menos espacio vertical */
   text-align: center;
   border-top: 2px solid #ddd;
   max-width: 700px;
@@ -129,30 +129,31 @@ footer {
 
 #contact h2 {
   color: #000;
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* separación entre íconos */
+  flex-wrap: wrap;
+}
+
 .contact-links img {
-  width: 40px; /* tamaño más pequeño de íconos */
-  margin: 8px;
-  vertical-align: middle;
+  width: 35px; /* íconos más pequeños */
+  height: 35px;
+  transition: transform 0.2s ease;
 }
 
-.contact-links a {
-  display: inline-block;
-  color: #000;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.contact-links a:hover {
-  color: #0077b6;
+.contact-links img:hover {
+  transform: scale(1.1); /* efecto suave al pasar el mouse */
 }
 
 .footer-note {
-  margin-top: 10px;
+  margin-top: 8px;
   font-style: italic;
   color: #333;
-  font-size: 13px;
+  font-size: 12px;
 }
