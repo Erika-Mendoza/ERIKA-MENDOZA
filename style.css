@@ -120,39 +120,39 @@ footer {
 
 #contact {
   background-color: #f8f9fa;
-  padding: 30px 20px;
+  padding: 20px 10px; /* reduce el alto */
   text-align: center;
   border-top: 2px solid #ddd;
   max-width: 700px;
-  margin: 0 auto; /* centra la sección */
+  margin: 0 auto;
 }
 
 #contact h2 {
-  color: #000; /* título en negro */
-  font-size: 24px;
-  margin-bottom: 15px;
+  color: #000;
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
-#contact p {
-  color: #000; /* texto en negro */
-  font-size: 16px;
-  margin: 6px 0;
+.contact-links img {
+  width: 40px; /* tamaño más pequeño de íconos */
+  margin: 8px;
+  vertical-align: middle;
 }
 
-#contact a {
-  color: #000; /* enlaces en negro */
+.contact-links a {
+  display: inline-block;
+  color: #000;
   text-decoration: none;
   font-weight: 500;
 }
 
-#contact a:hover {
-  color: #0077b6; /* azul al pasar el mouse */
-  text-decoration: underline;
+.contact-links a:hover {
+  color: #0077b6;
 }
 
 .footer-note {
-  margin-top: 15px;
+  margin-top: 10px;
   font-style: italic;
   color: #333;
-  font-size: 14px;
+  font-size: 13px;
 }
