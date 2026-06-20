@@ -157,3 +157,13 @@ footer {
   color: #333;
   font-size: 12px;
 }
+
+#contact p {
+  color: #000; /* texto en negro */
+  font-size: 15px;
+  margin: 6px 0;
+}
+
+#contact strong {
+  color: #000; /* asegura que 'Autor:' también sea negro */
+}
